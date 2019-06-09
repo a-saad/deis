@@ -9,9 +9,7 @@ from rest_framework.routers import Route
 
 
 class ApiRouter(DefaultRouter):
-    """Generate URL patterns for list, detail, and viewset-specific
-    HTTP routes.
-    """
+    """Generate URL patterns for list, detail, and viewset-specific HTTP routes."""
 
     routes = [
         # List route.
